@@ -10,7 +10,6 @@ namespace WCFService_2Way_019
     [ServiceContract]
     interface IClientCallback
     {
-
         [OperationContract(IsOneWay = true)]
         void pesanKirim(string user, string pesan);
     }
