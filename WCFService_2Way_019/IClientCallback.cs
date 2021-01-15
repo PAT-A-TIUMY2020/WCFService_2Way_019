@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 
 namespace WCFService_2Way_019
 {
-    [ServiceContract]
     interface IClientCallback
     {
         [OperationContract(IsOneWay = true)]
